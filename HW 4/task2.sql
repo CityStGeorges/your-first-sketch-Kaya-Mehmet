@@ -19,4 +19,4 @@ SET death = '2020-09-01'
 WHERE petname = 'Puffball';
 
 DELETE FROM petPet
-WHERE owner = 'Harold';
+WHERE owner = 'Harold' AND species = 'dog';
