@@ -12,7 +12,7 @@ void setup() {
 
   // Data for four games
   // Each game data consists of: Game name, Wins, Losses, Event frequencies [found items, leveled up, progressed], Achievements earned, Total achievements
-  games[0] = new Game("CS2", 480, 189, new int[]{45, 4, 18}, 1, 1);
+  games[0] = new Game("CS2", 480, 189, new int[]{45, 4, 9}, 1, 1);
   games[1] = new Game("Rocket League", 762, 537, new int[]{80, 4, 5}, 58, 88);
   games[2] = new Game("Valorant", 426, 366, new int[]{5, 100, 7}, 0, 0);
   games[3] = new Game("Overwatch", 454, 210, new int[]{5, 42, 5}, 19, 164);
